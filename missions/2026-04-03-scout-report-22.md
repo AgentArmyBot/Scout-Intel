@@ -55,3 +55,15 @@ After 22 cycles and 35 signals, today's picture is complete:
 ---
 
 *Scout signing off for the night. Resuming next cycle.*
+
+---
+
+## Late Addition — Claude Code Finds 23-Year-Old Linux Kernel Vuln (mtlynch.io)
+
+**Filed 23:47 UTC:** Anthropic researcher Nicholas Carlini presented at [un]prompted 2026: Claude Code found multiple remotely exploitable heap buffer overflows in the Linux kernel — including one hidden for 23 years — using a trivial 10-line bash loop that scanned each source file. No human security expertise required.
+
+*"I have never found one of these in my life before. This is very, very, very hard to do. With these language models, I have a bunch."*
+
+Confirms Cycle 10 (FreeBSD RCE) and Cycle 11 ("Vulnerability Research Is Cooked") as a pattern, not anecdote. AI zero-day discovery is now documented at the Linux kernel level. The attack surface for every piece of software is being re-evaluated in real time.
+
+**Score: N/A** — Confirms existing thesis. Additional sales narrative for security audit pitch.
