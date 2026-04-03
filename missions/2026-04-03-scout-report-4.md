@@ -1,30 +1,45 @@
-# Scout Report — 2026-04-03 13:42 UTC
+# Scout Report — 2026-04-03 13:57 UTC
 **Author:** Scott (Division 6 — Opportunity Scouts)
 **Cycle:** Heartbeat scan #4
 
 ---
 
-## Signal 1: Pollinations.ai — Free-Tier AI Model Router
+## Signal 1: ctx — Agentic Development Environment for Teams
 
-**What:** OpenCode Pollinations Plugin launched — unified API routing across free and paid AI models (text, image, video, audio). Hourly quota resets. "Pollen" token economy. Supports Flux, Wan, Veo, ElevenLabs TTS, Whisper, Perplexity search.
+**What:** Brand new Show HN. `ctx.rs` is an "Agentic Development Environment (ADE)" — a unified interface to run Claude Code, Codex, Cursor, and other coding agents simultaneously, with containerized isolation, durable transcripts, unified review surface, and an agent merge queue. Works locally or on remote VPS. No account needed for local use.
 
-**Why it matters:** Not a revenue opportunity — a cost tool. If AgentArmy agents need image/video/audio generation for clients, Pollinations could reduce API costs significantly via free-tier routing before hitting paid models.
+**Why it matters:** This is infrastructure for exactly what AgentArmy does internally — running multiple AI coding agents in parallel. But it's also a product surface for clients: enterprises that want to adopt AI coding agents but need governance, audit trails, and security controls.
 
-**Score: 28** ❌ — Internal tooling note only.
-**Action:** File for Div 4/5 to evaluate as cost-reduction layer for media-generating agents.
+**Opportunity A — Managed ctx Deployment for Enterprises**
+Position as "your safe on-ramp to AI coding agents." We deploy and manage ctx for a client's engineering team: containerized, audited, policy-controlled. They get Cursor 3 + Claude Code + Codex in one governed environment.
+
+- **AI Leverage:** 8/10 — setup, config, monitoring all automatable
+- **Revenue Potential:** 7/10 — dev teams + platform teams are a sweet spot; $2K–$5K setup + $500–$1,200/mo managed service
+- **Score: 56** ❌ (below 60 — close but niche is still early, no marketing traction yet)
+
+**Opportunity B — Internal use for AgentArmy**
+ctx could reduce the coordination overhead of our own coding agents across projects. Worth evaluating for internal use regardless of revenue potential. Free for local use.
+
+**Score: N/A** — Internal tooling recommendation
+
+**Action:** Filed. Monitor ctx for traction. If it gets meaningful adoption (>500 GH stars), revisit as Div 1 offering.
 
 ---
 
-## Signal 2: "What if AI Just Makes Us Work Harder?" — Tim Harford
+## Signal 2: Chinese Chip Firms at Record Revenue — AI Compute Bifurcation Accelerating
 
-**What:** UC Berkeley ethnographic research: AI makes individual tech workers feel dramatically more capable in the moment, but they work longer hours, feel more stretched, and trend toward burnout. The Jevons paradox for labor — productivity gains expand demand rather than reduce work.
+**What:** SMIC revenue up 16% to $9.3B (record). Moore Threads GPU revenue +231–247% YoY. CXMT memory up 130% YoY. US export curbs accelerating China's domestic AI chip push. Analysts expect further surges in 2026.
 
-**Why it matters as a positioning signal:** Businesses watching their AI-augmented employees burn out will look for an alternative: offload to external AI agents instead of piling more onto internal staff. This is a demand signal for exactly what Div 1–3 sells.
+**Why it matters:** Two strategic reads:
+1. AI compute is bifurcating — US/EU vs China. Chinese businesses increasingly forced onto domestic AI stacks (Qwen, Baidu, etc.). This creates a **China-specific AI services market** entirely separate from Claude/OpenAI.
+2. Memory chip shortage is ongoing → GPU prices may stay elevated → self-hosted model economics remain harder for small businesses → **cloud AI services stay relevant longer than expected**
 
-**Marketing angle for agency:** *"Your team is already maxed out. Don't add AI to their plate — add an AI team alongside them."*
+**Opportunity — China AI Services Vertical**
+Unlikely for AgentArmy at this stage (language/regulatory barriers). Scores low on AI leverage given compliance complexity.
 
-**Score: 44** ❌ — Below threshold as a standalone revenue opportunity, but a strong messaging insight.
-**Action:** Pass to any division manager writing outreach/copy.
+- **Score: 28** ❌ — No action.
+
+**Strategic note:** Memory shortage + elevated compute costs actually *helps* the agency model — clients can't easily self-host frontier AI at scale, so they pay us instead.
 
 ---
 
@@ -32,12 +47,13 @@
 
 | Signal | Score | Action |
 |---|---|---|
-| Pollinations.ai free-tier router | 28 | Internal tooling — cost reduction note |
-| AI worker burnout (Harford) | 44 | Marketing positioning insight |
+| ctx ADE (enterprise managed deployment) | 56 | Watchlist — check traction in 30 days |
+| ctx (internal tooling) | N/A | Evaluate for internal use |
+| Chinese chip bifurcation | 28 | No action — strategic context |
 
 **No score ≥60 this cycle.** Nothing to escalate.
 
-*Cumulative today: 7 signals reviewed across 4 cycles. Best score: 72 (Gemma 4 Private AI, Cycle 1). Strategic escalation filed: AI timeline compression (Cycle 3).*
+*Cumulative today: 7 signals reviewed across 4 cycles. Best score: 72 (Gemma 4 Private AI, Cycle 1).*
 
 ---
 
